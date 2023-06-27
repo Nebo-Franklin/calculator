@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="/calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+        <div class="bg">
+           <div class="functions">
+            <div id="result-display" dir="rtl">
+                <div data-previous-operand class="previous"></div>
+                <div data-current-operand class="current"></div>
+            </div>
+            <div class="op">
+                <div data-operation class="operations"> <p id="add" style="font-size: 30px;font-weight: bolder;">+</p></div>
+                <div data-operation class="operations"> <p id="divide" style="font-size: 30px;font-weight: bolder;">/</p></div>
+                <div data-operation class="operations"> <p id="multiply" style="font-size: 30px;font-weight: bolder;">*</p></div>
+                <div data-operation class="operations"> <p id="minus" style="font-size: 30px;font-weight: bolder;">-</p></div>
+                <div data-equals class="operations"> <p id="equal" style="font-size: 30px;font-weight: bolder;">=</p></div>
+            </div>
+            <div class="numbers1">
+                <div data-number class="first">1</div>
+                <div data-number class="first">2</div>
+                <div data-number class="first">3</div>
+            </div>
+            <div class="numbers2">
+                <div data-number class="first">4</div>
+                <div data-number class="first">5</div>
+                <div data-number class="first">6</div>
+            </div>
+            <div class="numbers3">
+                <div data-number class="first">7</div>
+                <div data-number class="first">8</div>
+                <div data-number class="first">9</div>
+            </div>
+            <div class="numbers4">
+                <div data-number class="first">0</div>
+                <div data-number class="first">.</div>
+                <div data-all-clear class="operations" style="font-size: 30px;font-weight: bolder;">C</div>
+            </div>
+           </div>
+        </div>
+        <script src="calculator.js"></script>
+    
+</body>
+</html>
